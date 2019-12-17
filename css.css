@@ -94,31 +94,30 @@ body {
 and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
-body {
-	background-color:#155CAA;
-}
 
 	#main {
 	width:auto;
 	height:100%;
-	background-color:#155CAA;
 }
 #header {
-	position:fixed;
-	width:100%;
-	height:170px;
-	background-color:#155CAA;
-	z-index:10;
+	display:none;
+	
 }
 	#logo {
-	float:none;
-	width:150px;
-	margin:15px;
+display:none;
+	
 }
 
+#affichesite {
+	width:250px;  
+	margin-top:150px;
+}
+
+
 #tickets {
-	margin-top:200px;
+	margin-top:50px;
 	width:237px;
+
 }
 
 #link {
@@ -132,14 +131,15 @@ body {
 	text-align:center;
 }
 #text {
-	width:auto;
+display:none;
+
 }
 #info {
-	margin-top:1900px;
-	position:absolute;
+display:none;
+
 }
 #footer {
-	margin-top:2600px;
+display:none;
 }
 }
 
