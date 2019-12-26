@@ -54,6 +54,11 @@ body {
   filter: opacity(.6);
 }
 
+.textlink {
+	color:white;
+	text-decoration:none;
+}
+
 #affichesite {
 	width:400px;
 	margin-top:200px;
